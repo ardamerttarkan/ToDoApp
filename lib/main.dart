@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:to_do_list_flutter/homepage.dart';
+import 'package:to_do_list_flutter/view/homepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,8 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-   home: HomePage(),
+      home: HomePage(),
     );
   }
 }
-
